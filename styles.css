@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    color: rgb(252, 22, 22);
+    text-align: center;
+    display: absolute;
+}
+
+@media screen and (max-width:500px) {
+    /*Any screen res from 0-500px wide */
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: yellow;
+        color: black;
+    }
+}
+
