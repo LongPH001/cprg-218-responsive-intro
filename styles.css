@@ -17,6 +17,7 @@ h2 {
     /*Any screen res from 0-500px wide */
     body {
         background-color: red;
+        font-size: 130%;
     }
 }
 
